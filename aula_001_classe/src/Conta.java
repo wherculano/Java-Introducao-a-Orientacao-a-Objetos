@@ -15,4 +15,13 @@ public class Conta {
         }
         return false;
     }
+
+    public boolean transfere(double valor, Conta destino){
+        boolean saqueOk = this.saca(valor);
+        if(saqueOk){
+            destino.deposita(valor);
+            return true;
+        }
+        return false;
+    }
 }
