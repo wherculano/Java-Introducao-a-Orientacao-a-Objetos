@@ -3,11 +3,13 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
+    private static int total;
 
     public Conta(int agencia, int numero) {
         this.agencia = agencia;
         this.numero = numero;
         System.out.println("Agencia " + this.agencia + " de numero " + this.numero + " criada.");
+        Conta.total++;  // atributo da classe e nao somente da instancia
     }
 
     public double getSaldo() {
@@ -69,5 +71,9 @@ public class Conta {
 
     public void setTitular(Cliente titular) {
         this.titular = titular;
+    }
+
+    public static int getTotal(){
+        return Conta.total;
     }
 }
