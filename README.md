@@ -1,5 +1,5 @@
 # Introdução à linguagem de Programação Java
-## Curso [Java OO: entendendo a Orientação a Objetos](https://cursos.alura.com.br/course/java-introducao-orientacao-objetos) realizado a partir da [Formação de Javascript para Backend](https://cursos.alura.com.br/formacao-java) na Alura.
+## Curso [Java OO: entendendo a Orientação a Objetos](https://cursos.alura.com.br/course/java-introducao-orientacao-objetos) realizado a partir da [Formação de Java](https://cursos.alura.com.br/formacao-java) na Alura.
 
 ### Ementa:   
 #### O problema do paradigma procedural
