@@ -10,7 +10,7 @@ public class TestaBanco {
         contaDoWagner.titular = wagner;
 
         System.out.println(contaDoWagner.titular.nome);
-        System.out.println(contaDoWagner.saldo);
+        System.out.println(contaDoWagner.getSaldo());
 
     }
 }
